@@ -4,5 +4,5 @@
     "noEmit": true
   },
   "include": ["src"],
-  "exclude": ["jest.config.ts", "__tests__", "*.spec.ts", "*.test.ts"]
+  "exclude": ["*.spec.ts", "*.test.ts"]
 }
