@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register --transpile-only src",
+    "prestart": "yarn type-check",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --ignore-watch node_modules --transpile-only src",
     "test": "jest",
     "type-check": "tsc --noEmit",
