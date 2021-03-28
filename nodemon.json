@@ -1,0 +1,21 @@
+{
+  "ignore": [
+    "node_modules",
+    ".husky",
+    ".git",
+    "__tests__",
+    "jest.config.ts",
+    "*.spec.ts",
+    "*.test.ts"
+  ],
+  "execMap": {
+    "ts": "ts-node -r tsconfig-paths/register --transpile-only"
+  },
+  "events": {
+    "start": "node -e 'console.clear()'",
+    "restart": "node -e 'console.clear()'"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  }
+}

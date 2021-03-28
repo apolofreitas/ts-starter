@@ -2,12 +2,9 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "commonjs",
-    "outDir": "dist",
-    "rootDir": ".",
+    "moduleResolution": "node",
     "strict": true,
     "strictPropertyInitialization": false,
-    "moduleResolution": "node",
-    "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
@@ -15,6 +12,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
+    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }
