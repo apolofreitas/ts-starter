@@ -1,15 +1,12 @@
 import sum from '~/sum'
 
-function main() {
-  return new Promise((resolve, reject) => {
+async function main() {
+  const msg = await new Promise((resolve, reject) => {
     setTimeout(() => {
-      console.log(sum(1, 2))
-
-      resolve('done!!')
+      resolve(`result: ${sum(1, 2)}`)
     }, 5000)
   })
+
+  console.log(msg)
 }
-
-const msg = await main()
-
-console.log(msg)
+main()
