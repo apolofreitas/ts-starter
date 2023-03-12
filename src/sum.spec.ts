@@ -1,7 +1,6 @@
-import test from 'ava'
-
+import { assert, test } from 'vitest'
 import sum from '~/sum'
 
-test('adds 1 + 2 to equal 3', async (t) => {
-  t.is(sum(1, 2), 3)
+test('Sum', async () => {
+  assert.equal(sum(1, 3), 4)
 })

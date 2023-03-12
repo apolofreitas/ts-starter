@@ -1,6 +1,0 @@
-{
-  "exec": "node -r @swc-node/register",
-  "ignore": ["./src/**/*.spec.ts", "node_modules"],
-  "watch": ["src"],
-  "ext": "ts,json"
-}
