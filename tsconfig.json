@@ -11,7 +11,6 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
-    "importsNotUsedAsValues": "error",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -21,11 +20,10 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "isolatedModules": true,
-    "types": ["vitest/globals"],
     "baseUrl": "./",
     "paths": {
       "~/*": ["src/*"]
     }
   },
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "build"]
 }
